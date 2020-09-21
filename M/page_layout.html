@@ -1,15 +1,56 @@
 <html>
 <head>
 <style>
+body{
+	margin:0;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.left_part{
+	text-align:center;
+	width:500px;
+	height:500px;
+	float: left;
+	background: #8B0000;   
+ }
+.left_part h1{
+	margin:0;
+    font-size:50;
+	font-family: Helvetica;
+	Color:white;
+	padding-top:150;
+	}
+.left_part h2{
+	    margin:0;
+	    padding-top:50;
+		font-weight: normal;
+		text-align: center;
+		color:white;
+		font-size:35;
+		font-family: serif;
+	}
+.right_part{
+	width:500px;
+	height:500px;
+	display:flex;
+    display:inline-block;
+ 	padding:5px;
+ 	font-size: 20;
+    font-family: Helvetica;
+	}
+
 /* Write your code here */
 </style>
 </head>
 <body>
 <aside class="left_part">
   <h1>Web Technologies</h1>
+  <h2>Foundations of Web
+  <br>2017 Fall</h2>
+  
 </aside>
 <section class="right_part">
-  <h3>Syllabus</h3>
+  <h3 align="center" >Syllabus</h3>
   <div class="">
     <ul>
       <li><a href="#">Week #1</a> Introduction to HTML</li>
@@ -21,4 +62,3 @@
 </section>
 </body>
 </html>
-
